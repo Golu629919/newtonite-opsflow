@@ -1,0 +1,38 @@
+{
+  "name": "newtonite-opsflow",
+  "version": "1.0.0",
+  "description": "Newtonite Operational Work Coordination System - Operations Under Pressure",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node --watch server/index.js",
+    "client": "vite",
+    "build": "vite build",
+    "dev": "node scripts/dev.js",
+    "test": "node scripts/run-tests.js"
+  },
+  "keywords": [
+    "operations",
+    "concurrency",
+    "idempotency",
+    "outbox",
+    "workflow"
+  ],
+  "author": "Newtonite Candidate",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "lucide-react": "^1.59.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.30",
+    "tailwindcss": "^3.4.17",
+    "vite": "^8.3.4"
+  }
+}
